@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "version": "1.0.17-p1",
+  "minAppVersion": "1.0.17",
+  "title": "Etiquetas em folha A4",
+  "description": "Adiciona impressão de etiquetas em folha A4 com grade e linhas de corte.",
+  "createdAt": "2026-09-28T17:46:43.749Z",
+  "restartRequired": false,
+  "package": {
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.17-p1/bipz-patch-1.0.17-p1.zip",
+    "sha256": "19bbae7b5d909c759e1796bdd72ecbadfd734b06f46651cd71e8c61a6a830c7f",
+    "size": 23212
+  },
+  "files": [
+    {
+      "path": "pages/etiquetas.php",
+      "sha256": "befb33b6c650c937679b3e133048a89d65ccb8ed15f9fccf41301b98ed5dda12",
+      "size": 100580
+    }
+  ]
+}

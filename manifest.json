@@ -1,21 +1,26 @@
 {
   "schema": 1,
-  "version": "1.0.17-p1",
+  "version": "1.0.17-p2",
   "minAppVersion": "1.0.17",
-  "title": "Etiquetas em folha A4",
-  "description": "Adiciona impressão de etiquetas em folha A4 com grade e linhas de corte.",
-  "createdAt": "2026-09-28T17:46:43.749Z",
+  "title": "Melhorias de impressão de etiquetas",
+  "description": "Melhora o Editor de Etiquetas e adiciona impressão rápida em folha A4 com grade, linhas de corte e espaçamento.",
+  "createdAt": "2026-09-28T18:37:13.165Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.17-p1/bipz-patch-1.0.17-p1.zip",
-    "sha256": "19bbae7b5d909c759e1796bdd72ecbadfd734b06f46651cd71e8c61a6a830c7f",
-    "size": 23212
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.17-p2/bipz-patch-1.0.17-p2.zip",
+    "sha256": "008e415a696bb2b708106a482b67d52880d4ab8293df4fd0e047fad1352636a9",
+    "size": 31960
   },
   "files": [
     {
       "path": "pages/etiquetas.php",
-      "sha256": "befb33b6c650c937679b3e133048a89d65ccb8ed15f9fccf41301b98ed5dda12",
-      "size": 100580
+      "sha256": "b5a3a9a9bda5140e405a59ed93f0a10e6ef63e8bf2322f515375f41323bf81cd",
+      "size": 100898
+    },
+    {
+      "path": "pages/etiquetas_rapidas.php",
+      "sha256": "ab76620a582db103918897fea596e279aeb93aa0fa250f9360cd7c781a50fa46",
+      "size": 31664
     }
   ]
 }

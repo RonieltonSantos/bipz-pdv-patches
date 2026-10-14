@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "version": "1.0.28-p14",
+  "version": "1.0.28-p15",
   "minAppVersion": "1.0.28",
   "title": "Melhorias na emissão de NF-e",
   "description": "Permite buscar produtos pelo EAN e aplica automaticamente o preço de atacado ao atingir a quantidade mínima configurada.",
-  "createdAt": "2026-10-14T19:02:32.990Z",
+  "createdAt": "2026-10-14T19:03:59.564Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p14/bipz-patch-1.0.28-p14.zip",
-    "sha256": "95db81812ccdf3305e6a8c524741b261494a1659de97778f47c88485927c92aa",
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p15/bipz-patch-1.0.28-p15.zip",
+    "sha256": "1dadb6eb5486e9e9095eb2d2dcd02d8dceebe5a2ce12afdcaf655bfb32328511",
     "size": 24013
   },
   "files": [

@@ -1,21 +1,26 @@
 {
   "schema": 1,
-  "version": "1.0.28-p6",
+  "version": "1.0.28-p7",
   "minAppVersion": "1.0.28",
   "title": "Melhorias na sincronização e cupons",
   "description": "Adiciona acompanhamento em tempo real à Central de Sincronização, utiliza dados fictícios no preview dos cupons e exibe somente os tipos de cupom ativados nas Preferências.",
-  "createdAt": "2026-10-14T17:27:11.061Z",
+  "createdAt": "2026-10-14T17:43:17.200Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p6/bipz-patch-1.0.28-p6.zip",
-    "sha256": "99bdb7caa2b33a3a3153a61bf7e622cda745a41df3371e94c572775762829af8",
-    "size": 2539
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p7/bipz-patch-1.0.28-p7.zip",
+    "sha256": "7223564e14af853f73cb1c38113645de4754583d6f34aee7b9fa9fee153f9798",
+    "size": 13327
   },
   "files": [
     {
-      "path": "includes/sync_carga_inicial.php",
-      "sha256": "4fa86a0f2af8865e76fda52229a21d4d868a0073104a781985ca6da3beb198fd",
-      "size": 7319
+      "path": "pages/dfe_recebidas.php",
+      "sha256": "09846b73413aa137167d94a2ef4a5c7a41cbb3d4bd85fa85eb70f69e8f9a4d17",
+      "size": 39780
+    },
+    {
+      "path": "pages/dfe_produto_criar.php",
+      "sha256": "b3387737f60b52496c7faa24489fc3a398cafe6805d5480210a1b1410efa4a5c",
+      "size": 5289
     }
   ]
 }

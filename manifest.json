@@ -1,31 +1,21 @@
 {
   "schema": 1,
-  "version": "1.0.28-p5",
+  "version": "1.0.28-p6",
   "minAppVersion": "1.0.28",
   "title": "Melhorias na sincronização e cupons",
   "description": "Adiciona acompanhamento em tempo real à Central de Sincronização, utiliza dados fictícios no preview dos cupons e exibe somente os tipos de cupom ativados nas Preferências.",
-  "createdAt": "2026-10-14T16:14:07.945Z",
+  "createdAt": "2026-10-14T17:27:11.061Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p5/bipz-patch-1.0.28-p5.zip",
-    "sha256": "062f8d0e1216f45fcd56ab9e1af2d1b423c720823ff4621aea762034272f8c02",
-    "size": 22418
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p6/bipz-patch-1.0.28-p6.zip",
+    "sha256": "99bdb7caa2b33a3a3153a61bf7e622cda745a41df3371e94c572775762829af8",
+    "size": 2539
   },
   "files": [
     {
-      "path": "pages/sincronizacao.php",
-      "sha256": "3b1eab8af448482087360f9417834e60639941de5f6d141be8a49b3aea164cf7",
-      "size": 27272
-    },
-    {
-      "path": "pages/sincronizacao_status.php",
-      "sha256": "79b8074098a47cb59ec0d3389317f33fe92c216cda724b4a39a01036c180c98e",
-      "size": 2192
-    },
-    {
-      "path": "pages/config_cupom.php",
-      "sha256": "eae5f14598a0ee13d1aab5971c64ddb7a8f17cb27e0700d7d8e1e7807f2bd1c3",
-      "size": 66281
+      "path": "includes/sync_carga_inicial.php",
+      "sha256": "4fa86a0f2af8865e76fda52229a21d4d868a0073104a781985ca6da3beb198fd",
+      "size": 7319
     }
   ]
 }

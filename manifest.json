@@ -1,36 +1,31 @@
 {
   "schema": 1,
-  "version": "1.0.28-p20",
+  "version": "1.0.28-p21",
   "minAppVersion": "1.0.28",
   "title": "Correções e melhorias na emissão de NF-e",
   "description": "Corrige tentativas duplicadas e a identificação das NF-e no histórico, preserva o rascunho da emissão e adiciona visualização das últimas notas com download do XML autorizado e acesso seguro ao DANFE.",
-  "createdAt": "2026-10-14T19:45:26.539Z",
+  "createdAt": "2026-10-14T20:15:35.582Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p20/bipz-patch-1.0.28-p20.zip",
-    "sha256": "4cd0efb04b4a87753a8766e099e83537d44edcb1ffd4070fd82b9a3c49a5f312",
-    "size": 42052
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p21/bipz-patch-1.0.28-p21.zip",
+    "sha256": "8e1d0cb668731cb8831bb11a4471efa26a6aa8f8d8a8a2425a1bdda577c0003f",
+    "size": 42109
   },
   "files": [
     {
       "path": "pages/emissor_nfe.php",
-      "sha256": "154dec5f823a6dcf13d16d2c4eea5fda8f4ff26528954ba90923771369c01c08",
-      "size": 104761
+      "sha256": "3df06e4b08f2cfbdfb93e5da19a598233e2a4f1654818e44d67a30b2250abf08",
+      "size": 105425
     },
     {
       "path": "pages/vendas.php",
-      "sha256": "3c3fd2945a639c4ea286b7e3585e2a8dbeb4f09c21b52ba04a4213ec3d569bfd",
-      "size": 55891
-    },
-    {
-      "path": "pages/nfe_download.php",
-      "sha256": "bc76fb58a13eb9d0d394a7914aa40c4cc8538c303577b7149fcdfa3e8b3b8c7a",
-      "size": 1189
+      "sha256": "d55f9150db834076c1fa031959f8d2df8182572d425aaa1f124c005eb189191c",
+      "size": 56306
     },
     {
       "path": "pages/ver_danfe.php",
-      "sha256": "9611facbad36d0ab4b8ad87014727bed462b9c2fb06627f1f22febedbbe1f894",
-      "size": 735
+      "sha256": "2db0523afee8f807a683f55782868d096c3942f6d697023c7bac5ca64dcc9b87",
+      "size": 2125
     }
   ]
 }

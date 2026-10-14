@@ -1,26 +1,31 @@
 {
   "schema": 1,
-  "version": "1.0.28-p4",
+  "version": "1.0.28-p5",
   "minAppVersion": "1.0.28",
-  "title": "Correção da configuração de impressora",
-  "description": "Remove a configuração duplicada da impressora na tela Empresa e ajusta a Saúde Operacional para usar a impressora configurada no cupom e instalada no Windows.",
-  "createdAt": "2026-10-14T14:48:31.554Z",
+  "title": "Melhorias na sincronização e cupons",
+  "description": "Adiciona acompanhamento em tempo real à Central de Sincronização, utiliza dados fictícios no preview dos cupons e exibe somente os tipos de cupom ativados nas Preferências.",
+  "createdAt": "2026-10-14T16:14:07.945Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p4/bipz-patch-1.0.28-p4.zip",
-    "sha256": "aed04017beeb7db0a99b604ee7c07781dd9f6f854b93451bba7312e63d70e82e",
-    "size": 17752
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p5/bipz-patch-1.0.28-p5.zip",
+    "sha256": "062f8d0e1216f45fcd56ab9e1af2d1b423c720823ff4621aea762034272f8c02",
+    "size": 22418
   },
   "files": [
     {
-      "path": "pages/empresa.php",
-      "sha256": "114d1ceeb3850c7c3014b5ae5c5beec2c871e5411c4d3c077b2b23bb7a025b19",
-      "size": 32295
+      "path": "pages/sincronizacao.php",
+      "sha256": "3b1eab8af448482087360f9417834e60639941de5f6d141be8a49b3aea164cf7",
+      "size": 27272
     },
     {
-      "path": "modais/modal_cupom_fiscal.php",
-      "sha256": "070b38af6c2985a460e9a7870551e246b0fe5cd68d942dd68e7e04afb9fc75a3",
-      "size": 40109
+      "path": "pages/sincronizacao_status.php",
+      "sha256": "79b8074098a47cb59ec0d3389317f33fe92c216cda724b4a39a01036c180c98e",
+      "size": 2192
+    },
+    {
+      "path": "pages/config_cupom.php",
+      "sha256": "eae5f14598a0ee13d1aab5971c64ddb7a8f17cb27e0700d7d8e1e7807f2bd1c3",
+      "size": 66281
     }
   ]
 }

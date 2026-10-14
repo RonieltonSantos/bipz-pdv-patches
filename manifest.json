@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "version": "1.0.28-p16",
+  "version": "1.0.28-p17",
   "minAppVersion": "1.0.28",
   "title": "Melhorias na emissão de NF-e",
   "description": "Permite buscar produtos pelo EAN e aplica automaticamente o preço de atacado ao atingir a quantidade mínima configurada.",
-  "createdAt": "2026-10-14T19:06:06.920Z",
+  "createdAt": "2026-10-14T19:12:13.540Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p16/bipz-patch-1.0.28-p16.zip",
-    "sha256": "df8d78b0a19d6bea78d0ab67087006f084c077618dd9790f61474e8c38f0cc45",
-    "size": 24186
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p17/bipz-patch-1.0.28-p17.zip",
+    "sha256": "71162c5fee32a3283d0c78ffb2a834f055f9ff2952a0c5a09358ee561928e2ab",
+    "size": 24892
   },
   "files": [
     {
       "path": "pages/emissor_nfe.php",
-      "sha256": "36d73a22feb4fc3b4da38926923d607c24886e69d49c476a18cce330ec604eed",
-      "size": 97607
+      "sha256": "ec2ba97df5a7a2420494844c0cec67602d73c371e8b0996f0acb2a8ba6d5a4b0",
+      "size": 100090
     }
   ]
 }

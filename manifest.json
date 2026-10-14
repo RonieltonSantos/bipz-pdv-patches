@@ -1,31 +1,21 @@
 {
   "schema": 1,
-  "version": "1.0.28-p2",
+  "version": "1.0.28-p3",
   "minAppVersion": "1.0.28",
   "title": "Correção de acesso para administradores",
   "description": "Garante acesso integral a todos os módulos e páginas para operadores cadastrados com o perfil Administrador.",
-  "createdAt": "2026-10-14T14:43:04.928Z",
+  "createdAt": "2026-10-14T14:46:38.107Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p2/bipz-patch-1.0.28-p2.zip",
-    "sha256": "e89ac235405ea9a060da942f0cc637037fab2df78cda048e3259e3227858b867",
-    "size": 37205
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p3/bipz-patch-1.0.28-p3.zip",
+    "sha256": "63b7d38cb3ab6d6c79c4493d43ed07cd6a1d9a55540feb64006d226ab001c691",
+    "size": 17752
   },
   "files": [
     {
-      "path": "includes/controle_acesso.php",
-      "sha256": "d5b9ca6b6b959d752867a42d550e16b8bebd7dd88f4e52e847b7371e02947b9f",
-      "size": 5334
-    },
-    {
-      "path": "pages/operadores.php",
-      "sha256": "b41764ce9ad3942eb7be1f21b2806be71243f00829fde6812d4fe2f5e50a62a0",
-      "size": 22223
-    },
-    {
-      "path": "pages/configuracoes.php",
-      "sha256": "7cd6beadcef00ac5ebbffd3af8789bbbe38b64d8949341072c5cd0cc084c6da1",
-      "size": 83364
+      "path": "pages/empresa.php",
+      "sha256": "114d1ceeb3850c7c3014b5ae5c5beec2c871e5411c4d3c077b2b23bb7a025b19",
+      "size": 32295
     },
     {
       "path": "modais/modal_cupom_fiscal.php",

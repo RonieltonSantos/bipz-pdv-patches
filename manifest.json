@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "version": "1.0.28-p3",
+  "version": "1.0.28-p4",
   "minAppVersion": "1.0.28",
-  "title": "Correção de acesso para administradores",
-  "description": "Garante acesso integral a todos os módulos e páginas para operadores cadastrados com o perfil Administrador.",
-  "createdAt": "2026-10-14T14:46:38.107Z",
+  "title": "Correção da configuração de impressora",
+  "description": "Remove a configuração duplicada da impressora na tela Empresa e ajusta a Saúde Operacional para usar a impressora configurada no cupom e instalada no Windows.",
+  "createdAt": "2026-10-14T14:48:31.554Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p3/bipz-patch-1.0.28-p3.zip",
-    "sha256": "63b7d38cb3ab6d6c79c4493d43ed07cd6a1d9a55540feb64006d226ab001c691",
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p4/bipz-patch-1.0.28-p4.zip",
+    "sha256": "aed04017beeb7db0a99b604ee7c07781dd9f6f854b93451bba7312e63d70e82e",
     "size": 17752
   },
   "files": [

@@ -1,36 +1,41 @@
 {
   "schema": 1,
-  "version": "1.0.28-p9",
+  "version": "1.0.28-p10",
   "minAppVersion": "1.0.28",
   "title": "Correções em NF-e e diagnóstico do sistema",
   "description": "Evita produtos duplicados ao importar NF-e, corrige o retorno incorreto no cadastro, exibe erros PHP na Saúde do Sistema e compacta o histórico de melhorias.",
-  "createdAt": "2026-10-14T18:07:47.535Z",
+  "createdAt": "2026-10-14T18:32:54.837Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p9/bipz-patch-1.0.28-p9.zip",
-    "sha256": "d6eb301798ff2120a4684169de54c5be57fab6ecf16608db112cbd4b2c84c2cf",
-    "size": 24176
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p10/bipz-patch-1.0.28-p10.zip",
+    "sha256": "c986d845ac282dc170d6e0afa3a9412ce328da568c5c5fe772c8d89ba8d616da",
+    "size": 49504
   },
   "files": [
     {
+      "path": "pages/dfe_recebidas.php",
+      "sha256": "1f7e91d491c7a902aca267926c9114b6e0270ceac58971ed20e470781586c6e1",
+      "size": 45055
+    },
+    {
       "path": "pages/dfe_produto_criar.php",
-      "sha256": "29a231f942369a368e02ef73d9778bca1fcfb7109b2dfcd8bc42a01267252594",
-      "size": 6878
+      "sha256": "b83fd4a1b0141bb7e2a03b236bf8190c85c46e9e4dfa1c39362036402c5acff5",
+      "size": 7457
     },
     {
-      "path": "pages/saude_sistema.php",
-      "sha256": "cc9b58bfef733a052223aa961357803ad05ea7acb5d878e6b4ebd97170a2915b",
-      "size": 6607
+      "path": "pages/clientes.php",
+      "sha256": "692a088fe656ff79c3cf1cdce8e0c7f3714fcf53eaa4a6ae06d8a1999d8ed69e",
+      "size": 44273
     },
     {
-      "path": "pages/saude_logs_php.php",
-      "sha256": "3d1bd71bda01df24c2c3142739e98f26157b7207ff045df0caab1d70adda3508",
-      "size": 992
+      "path": "pages/clientes_consultar_cnpj.php",
+      "sha256": "6fe327a3d1bae0ef598af7ca61aba45f849a6c3a10740325ef15edaed5da21e3",
+      "size": 3340
     },
     {
-      "path": "pages/configuracoes.php",
-      "sha256": "c95eb0a489c2836e143ca1a79c75f33267e19dba60655509978ebdcd034d55f2",
-      "size": 86138
+      "path": "pages/emissor_nfe.php",
+      "sha256": "0cecde88aae7b93df731c6bc025909d8d18011a331892c37844faa693f14211c",
+      "size": 89703
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "version": "1.0.28-p25",
+  "version": "1.0.30-p26",
   "minAppVersion": "1.0.28",
   "title": "Correções em NF-e, sincronização e relatórios",
   "description": "Corrige a visualização e o download da DANFE, evita rascunhos de NF-e nos relatórios, corrige o worker de sincronização e melhora a visualização e exportação do relatório de caixa em PDF vertical.",
-  "createdAt": "2026-10-15T11:58:52.184Z",
+  "createdAt": "2026-10-15T12:49:33.311Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p25/bipz-patch-1.0.28-p25.zip",
-    "sha256": "b0eb8864ddd66c4af33c6cbe19dcc5fc0cfe0629fc87a360e2bf8a92012bf025",
-    "size": 4381
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.30-p26/bipz-patch-1.0.30-p26.zip",
+    "sha256": "07acc3bf59219018c05b444bd6450ab9cf0f3630554bfc289ee5be913d8ec2bd",
+    "size": 8909
   },
   "files": [
     {
-      "path": "pages/monitoramento_bipz.php",
-      "sha256": "5722278fece25d781eae1450e57b99da26cc4c4701952fd5ceddc852cbff41ec",
-      "size": 14603
+      "path": "pages/sincronizacao.php",
+      "sha256": "9661b918bb51ff2130723efd8a2c90b06f33848e4b2fdb1623afb6f3089781ea",
+      "size": 31089
     }
   ]
 }

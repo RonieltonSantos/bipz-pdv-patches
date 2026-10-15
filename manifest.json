@@ -1,21 +1,61 @@
 {
   "schema": 1,
-  "version": "1.0.28-p22",
+  "version": "1.0.28-p23",
   "minAppVersion": "1.0.28",
-  "title": "Correções e melhorias na emissão de NF-e",
-  "description": "Corrige tentativas duplicadas e a identificação das NF-e no histórico, preserva o rascunho da emissão e adiciona visualização das últimas notas com download do XML autorizado e acesso seguro ao DANFE.",
-  "createdAt": "2026-10-14T20:45:53.959Z",
+  "title": "Correções em NF-e, sincronização e relatórios",
+  "description": "Corrige a visualização e o download da DANFE, evita rascunhos de NF-e nos relatórios, corrige o worker de sincronização e melhora a visualização e exportação do relatório de caixa em PDF vertical.",
+  "createdAt": "2026-10-15T10:50:14.098Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p22/bipz-patch-1.0.28-p22.zip",
-    "sha256": "399b2177ae3d376fc5f6be09d2349ac5478e5581a5ac0bdfab8ac5a96b304523",
-    "size": 9289
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p23/bipz-patch-1.0.28-p23.zip",
+    "sha256": "fb1403ea9b72ef94b3b9c0d7557eb2c5868e820821437aec4c76c415ea7235f7",
+    "size": 86479
   },
   "files": [
+    {
+      "path": "pages/emissor_nfe.php",
+      "sha256": "3df06e4b08f2cfbdfb93e5da19a598233e2a4f1654818e44d67a30b2250abf08",
+      "size": 105425
+    },
+    {
+      "path": "pages/vendas.php",
+      "sha256": "d55f9150db834076c1fa031959f8d2df8182572d425aaa1f124c005eb189191c",
+      "size": 56306
+    },
+    {
+      "path": "pages/ver_danfe.php",
+      "sha256": "2db0523afee8f807a683f55782868d096c3942f6d697023c7bac5ca64dcc9b87",
+      "size": 2125
+    },
+    {
+      "path": "includes/sync_cobrancas_cloud.php",
+      "sha256": "902e3d2d774f6da4375a9a1af545a4fb79785df08a8c2f143965d2b406d292dd",
+      "size": 12269
+    },
+    {
+      "path": "pages/sincronizacao.php",
+      "sha256": "c767e18e35ea72a6519eca1823b62d2bf46bdd5c39a627fa8918df7cf5fd67b5",
+      "size": 29655
+    },
     {
       "path": "pages/fechamento_caixa.php",
       "sha256": "ddc2530466534c5ddb50fccf7206b489b8bc5f2ca42aacf2ad3ac40a69de3f06",
       "size": 41504
+    },
+    {
+      "path": "pages/relatorio_caixa.php",
+      "sha256": "1cb0ce1b3bd5a80700741196233e8601dfe7d0f6f382b464899a8f5518187291",
+      "size": 48156
+    },
+    {
+      "path": "pages/relatorios.php",
+      "sha256": "8dcf7c5593c14a59df25596f14dd2708383c486f42ea8f7a869bf9b9c3d728d7",
+      "size": 57619
+    },
+    {
+      "path": "pages/relatorio_vendas_impressao.php",
+      "sha256": "ec79279d77685911b8abf3e647a5ceffb2de05809d227e702851126510fb57f8",
+      "size": 7035
     }
   ]
 }

@@ -1,26 +1,21 @@
 {
   "schema": 1,
-  "version": "1.0.28-p24",
+  "version": "1.0.28-p25",
   "minAppVersion": "1.0.28",
   "title": "Correções em NF-e, sincronização e relatórios",
   "description": "Corrige a visualização e o download da DANFE, evita rascunhos de NF-e nos relatórios, corrige o worker de sincronização e melhora a visualização e exportação do relatório de caixa em PDF vertical.",
-  "createdAt": "2026-10-15T11:52:28.264Z",
+  "createdAt": "2026-10-15T11:58:52.184Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p24/bipz-patch-1.0.28-p24.zip",
-    "sha256": "c9945fd0c9c59e03eb4a9db1a939882dadce0724966eb89d867f8a5c6be39b8d",
-    "size": 16124
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p25/bipz-patch-1.0.28-p25.zip",
+    "sha256": "b0eb8864ddd66c4af33c6cbe19dcc5fc0cfe0629fc87a360e2bf8a92012bf025",
+    "size": 4381
   },
   "files": [
     {
-      "path": "pages/relatorio_caixa.php",
-      "sha256": "8f753a5a050e98c16f8174dd89418344c273ac889b1811a20c94d962e91f2f30",
-      "size": 48784
-    },
-    {
-      "path": "pages/relatorio_fiscal_contador.php",
-      "sha256": "3aa55cf15ee870d266660170424f450233219c405b6c3257a339ab90b7863fd3",
-      "size": 15963
+      "path": "pages/monitoramento_bipz.php",
+      "sha256": "5722278fece25d781eae1450e57b99da26cc4c4701952fd5ceddc852cbff41ec",
+      "size": 14603
     }
   ]
 }

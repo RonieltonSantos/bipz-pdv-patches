@@ -1,61 +1,26 @@
 {
   "schema": 1,
-  "version": "1.0.28-p23",
+  "version": "1.0.28-p24",
   "minAppVersion": "1.0.28",
   "title": "Correções em NF-e, sincronização e relatórios",
   "description": "Corrige a visualização e o download da DANFE, evita rascunhos de NF-e nos relatórios, corrige o worker de sincronização e melhora a visualização e exportação do relatório de caixa em PDF vertical.",
-  "createdAt": "2026-10-15T10:50:14.098Z",
+  "createdAt": "2026-10-15T11:52:28.264Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p23/bipz-patch-1.0.28-p23.zip",
-    "sha256": "fb1403ea9b72ef94b3b9c0d7557eb2c5868e820821437aec4c76c415ea7235f7",
-    "size": 86479
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.28-p24/bipz-patch-1.0.28-p24.zip",
+    "sha256": "c9945fd0c9c59e03eb4a9db1a939882dadce0724966eb89d867f8a5c6be39b8d",
+    "size": 16124
   },
   "files": [
     {
-      "path": "pages/emissor_nfe.php",
-      "sha256": "3df06e4b08f2cfbdfb93e5da19a598233e2a4f1654818e44d67a30b2250abf08",
-      "size": 105425
-    },
-    {
-      "path": "pages/vendas.php",
-      "sha256": "d55f9150db834076c1fa031959f8d2df8182572d425aaa1f124c005eb189191c",
-      "size": 56306
-    },
-    {
-      "path": "pages/ver_danfe.php",
-      "sha256": "2db0523afee8f807a683f55782868d096c3942f6d697023c7bac5ca64dcc9b87",
-      "size": 2125
-    },
-    {
-      "path": "includes/sync_cobrancas_cloud.php",
-      "sha256": "902e3d2d774f6da4375a9a1af545a4fb79785df08a8c2f143965d2b406d292dd",
-      "size": 12269
-    },
-    {
-      "path": "pages/sincronizacao.php",
-      "sha256": "c767e18e35ea72a6519eca1823b62d2bf46bdd5c39a627fa8918df7cf5fd67b5",
-      "size": 29655
-    },
-    {
-      "path": "pages/fechamento_caixa.php",
-      "sha256": "ddc2530466534c5ddb50fccf7206b489b8bc5f2ca42aacf2ad3ac40a69de3f06",
-      "size": 41504
-    },
-    {
       "path": "pages/relatorio_caixa.php",
-      "sha256": "1cb0ce1b3bd5a80700741196233e8601dfe7d0f6f382b464899a8f5518187291",
-      "size": 48156
+      "sha256": "8f753a5a050e98c16f8174dd89418344c273ac889b1811a20c94d962e91f2f30",
+      "size": 48784
     },
     {
-      "path": "pages/relatorios.php",
-      "sha256": "8dcf7c5593c14a59df25596f14dd2708383c486f42ea8f7a869bf9b9c3d728d7",
-      "size": 57619
-    },
-    {
-      "path": "pages/relatorio_vendas_impressao.php",
-      "sha256": "ec79279d77685911b8abf3e647a5ceffb2de05809d227e702851126510fb57f8",
-      "size": 7035
+      "path": "pages/relatorio_fiscal_contador.php",
+      "sha256": "3aa55cf15ee870d266660170424f450233219c405b6c3257a339ab90b7863fd3",
+      "size": 15963
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "version": "1.0.30-p26",
-  "minAppVersion": "1.0.28",
-  "title": "Correções em NF-e, sincronização e relatórios",
-  "description": "Corrige a visualização e o download da DANFE, evita rascunhos de NF-e nos relatórios, corrige o worker de sincronização e melhora a visualização e exportação do relatório de caixa em PDF vertical.",
-  "createdAt": "2026-10-15T12:49:33.311Z",
+  "version": "1.0.39-p40",
+  "minAppVersion": "1.0.39",
+  "title": "Correção na leitura de produtos no PDV",
+  "description": "Evita que uma única leitura do código de barras adicione o produto duas vezes ao carrinho.",
+  "createdAt": "2026-10-27T15:48:18.294Z",
   "restartRequired": false,
   "package": {
-    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.30-p26/bipz-patch-1.0.30-p26.zip",
-    "sha256": "07acc3bf59219018c05b444bd6450ab9cf0f3630554bfc289ee5be913d8ec2bd",
-    "size": 8909
+    "url": "https://github.com/RonieltonSantos/bipz-pdv-patches/releases/download/1.0.39-p40/bipz-patch-1.0.39-p40.zip",
+    "sha256": "1606c62dd4d5193c18b4178c6b674724b8cdf9954c7ad2065ef0433b638ba9f7",
+    "size": 69224
   },
   "files": [
     {
-      "path": "pages/sincronizacao.php",
-      "sha256": "9661b918bb51ff2130723efd8a2c90b06f33848e4b2fdb1623afb6f3089781ea",
-      "size": 31089
+      "path": "pdv_full.php",
+      "sha256": "8582f218eadd34514f7b24b40447f4743cfdccd70b9b5bcd25622caf115858b0",
+      "size": 315080
     }
   ]
 }
